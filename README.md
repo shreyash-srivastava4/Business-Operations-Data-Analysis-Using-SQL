@@ -3,19 +3,93 @@
 
 SQL Project : Synergizing Success - Improving Operational
 Efficiency and Employee Engagement
+
+
 Problem Statement:
+
 Enhancing Operational Efficiency and Growth Strategies in a Multi-Departmental
 Business
-Context:
-● Business operations involve a complex interaction between departments,
-products, suppliers, and employees, where each element contributes to
-overall performance. Challenges such as managing inventory levels,
-optimizing employee performance, maintaining customer satisfaction, and
-navigating supply chain dependencies require constant data analysis for
-informed decision-making. Effective alignment between leadership,
-employees, and market trends is also crucial for future planning and
-sustainable growth.
-Problem:
+
+
+Project Overview
+
+This project focused on analyzing a company's business
+operations dataset to extract actionable insights related to
+employee performance, product sales, customer satisfaction, and
+supply chain efficiency. SQL was used extensively to process and
+evaluate various operational dimensions.
+Context
+Business operations involve complex dynamics between employees, products,
+suppliers, and departments. Continuous analysis is vital for aligning workforce
+performance with strategic goals, maintaining customer satisfaction, and
+preventing supply chain disruptions.
+Problem Statement
+The organization faced several operational inefficiencies:
+Employee Performance & Retention Challenges: Fluctuating performance
+levels and high turnover prompted analysis of training effectiveness,
+compensation, and tenure on performance.
+Product Sales & Customer Satisfaction: Discrepancies were observed where
+certain products had high sales but low feedback, raising concerns about
+quality or customer support.
+Supply Chain & Inventory Gaps: Inadequate inventory for some products
+posed supply risks and potential lost sales, while supplier performance and
+inventory balance required assessment.
+
+SQL Techniques Used
+
+Aggregations & Grouping
+Window Functions
+Common Table Expressions (CTEs)
+Views & Indexes
+Stored Procedures
+User-Defined Functions (UDFs
+
+
+Key Insights & Results
+
+Highest Profit Margin Department: HR department had the highest
+average profit margin (~17.64%).
+Top IT Performer: The top-performing employee in the IT department
+was identified with the highest performance score.
+Top Revenue Product in HR: The most revenue-generating product in
+HR was highlighted.
+Accessories Feedback Score: All products in the Accessories category
+had an average feedback score of 5.
+Supplier Inventory: Supplier B had the highest total inventory level.
+Lowest Gadget Inventory: Charger had the lowest inventory level in
+the Gadgets category.
+Sales Training Completion: 495 Sales employees completed training,
+representing a 49.25% completion rate.
+Marketing Units Sold: Marketing department sold 1010 units in total;
+“Charger” contributed the most.
+Revenue Ranking by Employee: Employees ranked by revenue using
+SQL RANK() window function.
+High Salary Departments: All departments had average salaries
+above $70,000.
+View Created: For Accessories product revenue and margins using
+CREATE VIEW.
+Index on Employee Name: Created a non-clustered index on
+employee_name to improve performance.
+Stored Procedure: Developed a stored procedure to calculate
+department-level revenue dynamically.
+Scalar UDF: Created a function to calculate profit from revenue and
+profit margin.
+Clustered Index: Created a clustered index on company_id.
+
+
+Conclusion
+
+This project highlighted critical inefficiencies in operations using
+SQL-driven analysis. The business can now:
+Improve training and retention strategies
+Address customer satisfaction issues
+Balance inventory to avoid lost sales
+This comprehensive SQL analysis supports better decision-making
+across departments and aligns with long-term strategic goals.
+
+
+
+Problems:
 ● The company is experiencing several operational inefficiencies:
 ● Employee Performance & Retention Challenges: Inconsistent employee
 performance and high turnover rates negatively impact productivity. The
@@ -77,73 +151,3 @@ department.
 product's revenue and profit margin.
 ● Provide a query to create a clustered index on the company_id column.
 
-
-Project Overview
-
-This project focused on analyzing a company's business
-operations dataset to extract actionable insights related to
-employee performance, product sales, customer satisfaction, and
-supply chain efficiency. SQL was used extensively to process and
-evaluate various operational dimensions.
-Context
-Business operations involve complex dynamics between employees, products,
-suppliers, and departments. Continuous analysis is vital for aligning workforce
-performance with strategic goals, maintaining customer satisfaction, and
-preventing supply chain disruptions.
-Problem Statement
-The organization faced several operational inefficiencies:
-Employee Performance & Retention Challenges: Fluctuating performance
-levels and high turnover prompted analysis of training effectiveness,
-compensation, and tenure on performance.
-Product Sales & Customer Satisfaction: Discrepancies were observed where
-certain products had high sales but low feedback, raising concerns about
-quality or customer support.
-Supply Chain & Inventory Gaps: Inadequate inventory for some products
-posed supply risks and potential lost sales, while supplier performance and
-inventory balance required assessment.
-
-SQL Techniques Used
-
-Aggregations & Grouping
-Window Functions
-Common Table Expressions (CTEs)
-Views & Indexes
-Stored Procedures
-User-Defined Functions (UDFs
-Key Insights & Results
-Highest Profit Margin Department: HR department had the highest
-average profit margin (~17.64%).
-Top IT Performer: The top-performing employee in the IT department
-was identified with the highest performance score.
-Top Revenue Product in HR: The most revenue-generating product in
-HR was highlighted.
-Accessories Feedback Score: All products in the Accessories category
-had an average feedback score of 5.
-Supplier Inventory: Supplier B had the highest total inventory level.
-Lowest Gadget Inventory: Charger had the lowest inventory level in
-the Gadgets category.
-Sales Training Completion: 495 Sales employees completed training,
-representing a 49.25% completion rate.
-Marketing Units Sold: Marketing department sold 1010 units in total;
-“Charger” contributed the most.
-Revenue Ranking by Employee: Employees ranked by revenue using
-SQL RANK() window function.
-High Salary Departments: All departments had average salaries
-above $70,000.
-View Created: For Accessories product revenue and margins using
-CREATE VIEW.
-Index on Employee Name: Created a non-clustered index on
-employee_name to improve performance.
-Stored Procedure: Developed a stored procedure to calculate
-department-level revenue dynamically.
-Scalar UDF: Created a function to calculate profit from revenue and
-profit margin.
-Clustered Index: Created a clustered index on company_id.
-Conclusion
-This project highlighted critical inefficiencies in operations using
-SQL-driven analysis. The business can now:
-Improve training and retention strategies
-Address customer satisfaction issues
-Balance inventory to avoid lost sales
-This comprehensive SQL analysis supports better decision-making
-across departments and aligns with long-term strategic goals.
